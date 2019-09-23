@@ -21,7 +21,7 @@ function farUserGuesses() {
 countGuessesLeft();
 
 var restart = function restart() {
-    var aiGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
+    aiGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
     guessesLeft = 9;
     letterUser = [];
 }
